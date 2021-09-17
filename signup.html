@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/sinup.css" type="text/css">
+    <title>Homepage</title>
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   
+</head>
+<body>
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="../JS/sinup.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+     
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!-- Links -->
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../HTML/Login.html">Home</a>
+          </li>
+        </ul>
+        
+      </nav>
+      <br>
+      <div class="container">
+            <div class="card" style="width: 56rem;">
+                <div class="card-header">Signup Here</div>  
+                  <div class="card-body">
+                      <div class="form-group row justify-content-md-center">
+                            <lable for="firstname" class="col col-sm-3 col-form-label">Firstname:</lable>
+                            <div class="col col-sm-4">
+                            <input type="text" id="firstname" placeholder="Enter your firstname" class="form-control">
+                            </div>
+                      </div>
+                     
+                      <div class="form-group row justify-content-md-center">
+                        <lable for="lastname" class="col col-sm-3 col-form-label">Lastname:</lable>
+                        <div class="col col-sm-4">
+                        <input type="text" id="lastname" placeholder="Enter your lastname" class="form-control">
+                        </div>
+                      </div>
+                     
+                      <div class="form-group row justify-content-md-center">
+                        <lable for="email" class="col col-sm-3 col-form-label">EmailId:</lable>
+                        <div class="col col-sm-4">
+                        <input type="text" id="email" placeholder="Enter your email" class="form-control">
+                        </div>
+                      </div>
+                      
+                      <div class="form-group row justify-content-md-center">
+                        <lable for="dateOfBirth" class="col col-sm-3 col-form-label">DateOfBirth:</lable>
+                        <div class="col col-sm-4">
+                        <input type="text" id="dateOfBirth" placeholder="Enter your dateOfBirth" class="form-control">
+                        </div>
+                      </div>
+                      
+                      <div class="form-group row justify-content-md-center">
+                        <lable for="username" class="col col-sm-3 col-form-label">Username:</lable>
+                        <div class="col col-sm-4">
+                        <input type="text" id="username" placeholder="Enter your username" class="form-control">
+                        </div>
+                      </div>
+
+                      <div class="form-group row justify-content-md-center">
+                        <lable for="password" class="col col-sm-3 col-form-label">Password:</lable>
+                        <div class="col col-sm-4">
+                        <input type="text" id="password" placeholder="Enter your password" class="form-control">
+                        </div>
+                      </div>
+                      
+                      <div class="form-group row justify-content-md-center">
+                        <lable for="cpassword" class="col col-sm-3 col-form-label">ConfirmPassword:</lable>
+                        <div class="col col-sm-4">
+                        <input type="text" id="cpassword" placeholder="Enter your password" class="form-control">
+                        </div>
+                      </div>
+                      <div class="form-group row justify-content-md-center">
+                        <input type="button"  class="btn btn-secondary" value="SignUp" id="sinUp">
+                      </div>
+                      <div class="form-group row justify-content-md-center">
+                        <span>Already have an account?<a href="../HTML/Login.html">Login Here</a></span>  
+                      </div>
+                  </div>   
+                  
+            </div>
+            <!-- <span>Already have an account?<a href="../HTML/Login.html">Login Here</a></span> -->
+       </div>
+     </body>
+     <footer>
+        <p>&copy 2021 Varaprasad All rights reserved </p>
+      </footer>
+</body>
+</html>

@@ -1,0 +1,27 @@
+header {
+    background-color:#07345e;
+    padding: 15px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+   
+}
+footer {
+    background-color: #e5e5e5;
+    text-align: center;
+    color: white;
+    position: fixed;
+    width:100%;
+    bottom: 0;
+    padding: 10px;
+}
+p{
+    color:#666;
+    text-align: center;
+}
+.card-body{
+    width:100%;
+    position: relative;
+    background-image: url(../Images/download.jfif); 
+}
+#cardbody{}
